@@ -8,7 +8,7 @@ $(document).ready(function() {
 	//3. how do I want to print them? Start on the console...
 	var indexItems = document.getElementsByTagName("*");
 	for (var i=0, max=indexItems.length; i < max; i++){
-		console.log(indexItems[i]);
+		//console.log(indexItems[i]);
 		console.log(indexItems[i].tagName);
 	}
 
